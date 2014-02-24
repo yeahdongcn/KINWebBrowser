@@ -97,6 +97,7 @@ FOUNDATION_EXPORT NSString *const KINWebBrowserRestoresToolbarState;
 // Ideal for use with UINavigationController pushViewController:animated: or initWithRootViewController:
 + (KINWebBrowserViewController *)webBrowserWithOptions:(NSDictionary *)options;
 
+- (id)initWithOptions:(NSDictionary *)options;
 
 // Initializes a UINavigationController with a KINWebBrowserViewController for modal presentation
 // Ideal for use with presentViewController:animated:
